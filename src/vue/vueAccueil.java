@@ -88,12 +88,6 @@ public class vueAccueil extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jTabbedPane2.addChangeListener(new javax.swing.event.ChangeListener() {
-            public void stateChanged(javax.swing.event.ChangeEvent evt) {
-                jTabbedPane2StateChanged(evt);
-            }
-        });
-
         jPanel3.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
                 jPanel3FocusGained(evt);
@@ -116,7 +110,6 @@ public class vueAccueil extends javax.swing.JFrame {
 
         jTextField1.setEditable(false);
         jTextField1.setBackground(new java.awt.Color(255, 255, 255));
-        jTextField1.setText("jTextField1");
 
         jLabel2.setText("Muscle Principal :");
 
@@ -124,7 +117,6 @@ public class vueAccueil extends javax.swing.JFrame {
 
         jTextField2.setEditable(false);
         jTextField2.setBackground(new java.awt.Color(255, 255, 255));
-        jTextField2.setText("jTextField2");
 
         jLabel4.setText("Description :");
 
@@ -210,11 +202,9 @@ public class vueAccueil extends javax.swing.JFrame {
 
         jTextField3.setEditable(false);
         jTextField3.setBackground(new java.awt.Color(255, 255, 255));
-        jTextField3.setText("jTextField2");
 
         jTextField4.setEditable(false);
         jTextField4.setBackground(new java.awt.Color(255, 255, 255));
-        jTextField4.setText("jTextField1");
 
         jLabel8.setText("Image");
 
@@ -298,11 +288,9 @@ public class vueAccueil extends javax.swing.JFrame {
 
         jTextField5.setEditable(false);
         jTextField5.setBackground(new java.awt.Color(255, 255, 255));
-        jTextField5.setText("jTextField2");
 
         jTextField6.setEditable(false);
         jTextField6.setBackground(new java.awt.Color(255, 255, 255));
-        jTextField6.setText("jTextField1");
 
         jLabel12.setText("Image");
 
@@ -451,11 +439,6 @@ public class vueAccueil extends javax.swing.JFrame {
     private void jPanel3MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel3MouseEntered
         // TODO add your handling code here:
     }//GEN-LAST:event_jPanel3MouseEntered
-
-    private void jTabbedPane2StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_jTabbedPane2StateChanged
-        
-//        
-    }//GEN-LAST:event_jTabbedPane2StateChanged
 
    
     public DefaultComboBoxModel getModeleListeExercices() {

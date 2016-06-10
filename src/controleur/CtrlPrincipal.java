@@ -69,27 +69,6 @@ public class CtrlPrincipal {
    
      }
     
-     
-
-     
-      ChangeListener evt = new ChangeListener() {
-      public void stateChanged(ChangeEvent evt) {
-          Object source = evt.getSource();
-          if(source == vue.getjPanel3()){
-              //ton code ici normalement sa doit marcher :)
-          }
-        JTabbedPane sourceTabbedPane = (JTabbedPane) evt.getSource();
-        int index = sourceTabbedPane.getSelectedIndex();
-        System.out.println("Tab changed to: " + sourceTabbedPane.getTitleAt(index));
-      }
-    };
-    
-                                      
-
-    
-     
-     
-     
     //Quitter l'application
         public void quitterApplication(){       
         // Confirmer avant de quitter
